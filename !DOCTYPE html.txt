@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Print Wear</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f5f5f5;
+}
+
+/* Header */
+header{
+background:black;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+/* Navigation */
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffcc00;
+}
+
+/* Hero section */
+.hero{
+background:url('https://images.unsplash.com/photo-1523381294911-8d3cead13475') center/cover;
+height:400px;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+font-size:40px;
+font-weight:bold;
+}
+
+/* Products */
+.products{
+padding:40px;
+text-align:center;
+}
+
+.product-grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.product{
+background:white;
+padding:20px;
+width:220px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product img{
+width:100%;
+border-radius:10px;
+}
+
+.product button{
+margin-top:10px;
+padding:10px;
+border:none;
+background:black;
+color:white;
+cursor:pointer;
+}
+
+.product button:hover{
+background:#ffcc00;
+color:black;
+}
+
+/* Contact */
+.contact{
+background:#222;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+/* Footer */
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>PRINT WEAR</h1>
+<p>Stylish Printed Clothing</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+NEW PRINT COLLECTION
+</div>
+
+<section class="products">
+<h2>Our Products</h2>
+
+<div class="product-grid">
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1520975928316-8a3c2dbf3c4c">
+<h3>Printed T-Shirt</h3>
+<p>₹799</p>
+<button>Buy Now</button>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c">
+<h3>Graphic Hoodie</h3>
+<p>₹1499</p>
+<button>Buy Now</button>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1516822003754-cca485356ecb">
+<h3>Streetwear Shirt</h3>
+<p>₹999</p>
+<button>Buy Now</button>
+</div>
+
+</div>
+</section>
+
+<section class="contact">
+<h2>Contact Us</h2>
+<p>Email: printwear@gmail.com</p>
+<p>WhatsApp: +91 9876543210</p>
+</section>
+
+<footer>
+<p>© 2026 Print Wear. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
